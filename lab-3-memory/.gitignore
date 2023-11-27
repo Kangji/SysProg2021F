@@ -1,0 +1,7 @@
+.DS_Store
+mm_test
+mm_driver
+obj/*.o
+.deps/*.d
+doc/html
+*.swp

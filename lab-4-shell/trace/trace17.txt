@@ -1,0 +1,13 @@
+#
+# trace17.txt - Output redirection 
+#
+
+/bin/echo "tsh> /bin/echo Hello Tiny Shell! > file"
+/bin/echo Hello Tiny Shell! > file
+
+/bin/echo "tsh> /bin/cat file"
+/bin/cat file
+
+/bin/echo "tsh> /bin/rm file"
+/bin/rm file
+

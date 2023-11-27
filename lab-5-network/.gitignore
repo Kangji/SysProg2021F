@@ -1,0 +1,7 @@
+*.swp
+*.swo
+client
+mcdonalds
+*.o
+*.d
+doc/html

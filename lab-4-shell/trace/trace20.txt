@@ -1,0 +1,9 @@
+#
+# trace20.txt - multiple chained pipes
+#
+
+/bin/echo "tsh> ls | grep my | grep spin"
+ls | grep my | grep spin
+
+/bin/echo "tsh> ls | grep my | grep spin &"
+ls | grep my | grep spin &

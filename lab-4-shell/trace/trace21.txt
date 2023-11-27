@@ -1,0 +1,21 @@
+#
+# trace21.txt - pipes and output redirection
+#
+
+/bin/echo "tsh> ls | grep my | sort -r > test21a.txt"
+ls | grep my | sort -r > test21a.txt
+
+/bin/echo "tsh> ls | grep my | sort -r > test21b.txt &"
+ls | grep my | sort -r > test21b.txt &
+
+/bin/echo "tsh> cat test21a.txt"
+cat test21a.txt
+
+/bin/echo "tsh> cat test21b.txt"
+cat test21b.txt
+
+/bin/echo "tsh> rm test21a.txt"
+rm test21a.txt
+
+/bin/echo "tsh> rm test21b.txt"
+rm test21b.txt

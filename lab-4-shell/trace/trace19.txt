@@ -1,0 +1,7 @@
+#
+# trace19.txt - pipe test
+#
+
+/bin/echo "tsh> /bin/ls | /usr/bin/sort -r"
+/bin/ls | /usr/bin/sort -r
+

@@ -1,0 +1,6 @@
+.DS_Store
+dirtree
+*.o
+*.d
+test?/*
+demo/*
